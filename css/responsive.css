@@ -1,0 +1,382 @@
+/* Big Laptops */
+@media (max-width: 1440px) {
+    html {
+    font-size: 56.6%;
+    }
+
+    .home {
+        padding-right: 9%;
+        gap: 2rem;
+    }
+
+    .resume-list {
+        height: 66rem;              /* REQUIRED for scrollbar */
+    }
+
+    .resume-detail.skills .resume-list {
+    height: 51rem;      
+    }
+
+    .principles-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(162px,1fr));
+    gap:2rem;
+    }
+
+    .about-profile h5{
+    font-size: 2.3rem;
+    color: var(--main-color);
+    letter-spacing: .15rem;
+    margin-bottom: .8rem;
+    margin-top: -2rem;
+}
+
+    .about-profile h3{
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    margin-top: -1.3rem;
+}
+
+    .principle-card h4{
+    font-size:1.5rem;
+}
+    .principle-card p{
+    font-size:1.4rem;
+    line-height:1.8;
+}
+}
+
+/* Small Laptops */
+@media (max-width: 1024px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    .principles-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(106px,1fr));
+    gap:2rem;
+    }
+
+    .principle-card h4{
+    font-size:1.4rem;
+}
+    .principle-card p{
+    font-size:1.3rem;
+    line-height:1.8;
+}
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    html {
+        font-size: 30%;
+    }
+
+    .resume-list {
+    grid-template-columns: 1fr;    
+}
+
+    .resume-list {
+        height: 99rem;              /* REQUIRED for scrollbar */
+    }
+
+    .principles-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(122px,1fr));
+    gap:2rem;
+    }
+
+    .principle-card h4{
+    font-size:2.5rem;
+}
+    .principle-card p{
+    font-size:2rem;
+    line-height:1.8;
+}
+
+}
+
+/* Modern Mobile Phones/Iphones (Large)*/
+@media (max-width: 425px) {
+
+    html {
+        font-size: 32%;
+    }
+
+    .navbar a {
+        margin-left: 1.8rem;
+        font-weight: 100;
+        font-size: 1.6rem;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .home-detail {
+        margin-top: -12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-detail p {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .about-content p {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .home-detail .btn-sci {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .home-detail .btn-sci .sci {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .home-img .img-box {
+        width: 36rem;
+        height: 90%;
+        margin-top: -5%;
+    }
+
+    .home-img img {
+        width: 33rem;
+        height: 84%;
+        margin-top: -5%;
+    }
+
+    .resume-container,
+    .projects-container,
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+.resume-list {
+    grid-template-columns: 1fr;    
+}
+
+.resume-detail.about {
+    background: var(--bg-color);
+    padding: 0;
+}
+
+.services-container {
+    grid-template-columns: 1fr;
+}
+
+    .projects-container .projects-box:first-child {
+        order: 1;
+}
+
+    .resume-list {
+        height: 85rem;              /* REQUIRED for scrollbar */
+    }
+
+    .resume-detail.skills .resume-list {
+    height: 51rem;      
+    }
+
+    .about {
+    margin-top: 0rem;
+    }
+
+    .intro, .about-card p {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .about-card h3 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .principles-title {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+
+    .about-left{
+        position: static;   
+        top: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .about-profile{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .principles-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:2rem;
+    }
+
+    .principle-card h4{
+    font-size:3rem;
+}
+    .principle-card p{
+    font-size:2.4rem;
+    line-height:1.8;
+}
+
+    .about-profile h5{
+    font-size: 4.5rem;
+    color: var(--main-color);
+    letter-spacing: .15rem;
+    margin-bottom: .8rem;
+    margin-top: -2rem;
+}
+
+    .about-profile h3{
+    font-size: 2.5rem;
+    line-height: 2;
+    margin-bottom: -2rem;
+    margin-top: -3rem;
+}
+
+    .founder-tags h4{
+    font-size:2rem;
+    line-height: 1.3;
+    color:var(--white-color);
+    margin-bottom: -1rem;
+}
+
+.founder-tags h4 span{
+    font-size:2.5rem;
+    font-style: normal;
+    color:var(--main-color);
+}
+
+#founder {
+    visibility: hidden;
+    margin-top: -5rem;
+}
+
+.services-container p, .services .desc, .resume-container .desc, .resume-box p, .projects-detail p, .contact-box p, .resume-item h3 {
+    font-size: 2.4rem;
+}
+.resume-item p {
+    font-size: 1.8rem;
+}
+
+.resume-detail.about .resume-item p span {
+    font-size: 2rem;
+}
+
+.contact-buttons{
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-box .field-box {
+    grid-template-columns: 1fr;
+}
+}
+
+/* Many Medium Mobile Phones (Infinix Smart 5) */
+@media (max-width: 375px) {
+
+    html {
+        font-size: 30%;
+    }
+
+.navbar a {
+        margin-left: 1.8rem;
+        font-weight: 100;
+        font-size: 1.6rem;
+    }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 320px) {
+
+    html {
+        font-size: 24%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 4rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 4rem 0;
+    }
+
+    .btn {
+        padding: .9rem 2.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .error-content h1 {
+        font-size: 10rem;
+    }
+
+    .error-content h2 {
+        font-size: 3rem;
+    }
+
+    .error-content p {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .error-content h1 {
+        font-size: 8rem;
+    }
+
+    .error-content h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
